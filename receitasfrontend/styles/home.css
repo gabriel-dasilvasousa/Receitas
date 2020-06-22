@@ -1,0 +1,109 @@
+div#home-content{
+    height: 100vh;
+    background: url(../assets/undraw_cooking_lyxy.svg) no-repeat;
+
+    background-position: 70vw 30vh;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px ;
+}
+
+header span{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header span a{
+    color: #bd1414;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header span a img{
+    padding: 0;
+    margin-right: 10px;
+}
+
+
+div#main{
+    height: 100%;
+    width: 90%;
+    max-width: 1100px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div#main h1{
+    margin-bottom: 10px;
+    color: chocolate;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+div#main h3{
+    margin-bottom: 10px;
+    color: chocolate;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+div#main a {
+    border-radius: 8px;
+    padding: 12x;
+    height: 50px;
+    width: 250px;
+    background-color: #bd1414;
+    display: flex;
+    color: antiquewhite;
+    align-items: center;
+    border:0;
+}
+
+div#main span{
+    
+    height: 50px;
+    width: 50px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(0,0,0,0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div#main span::after{
+    content: "";
+    background-image: url(../assets/search.svg);
+    
+    width: 20px;
+    height: 20px;
+}
+
+div#main a strong{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+
